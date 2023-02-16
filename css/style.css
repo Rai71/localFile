@@ -1,6 +1,68 @@
 /* algemeen */
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    overflow-x: hidden;
+    background-image: url("/images");
+    background-size: cover;
+    background-position: center center;
+}
 
+.logo-item{
+    width: 10vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    background: rgba(104, 104, 104, 0.23);
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.24);
+    box-shadow: 0 0 10px 0;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+    width: 100%;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover{
+    background: #112c66;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
 
 
 /* home page */
