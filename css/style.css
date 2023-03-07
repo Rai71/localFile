@@ -6,7 +6,7 @@
 
 body{
     overflow-x: hidden;
-    background-image: url("/images");
+    background-image: url("/images/BackgroundSite.png");
     background-size: cover;
     background-position: center center;
 }
@@ -17,6 +17,7 @@ body{
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 header{
