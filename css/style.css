@@ -158,10 +158,13 @@ footer img{
     padding-right: 50px;
     background-color: gray;
 }
+
 #formProblem {
     width: 100%;
     height: 100px;
 }
-
+#formEmail{
+    width: 100%;
+}
 
 
