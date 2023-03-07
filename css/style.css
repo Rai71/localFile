@@ -6,7 +6,7 @@
 
 body{
     overflow-x: hidden;
-    background-image: url("/images");
+    background-image: url("/images/BackgroundSite.png");
     background-size: cover;
     background-position: center center;
 }
@@ -17,6 +17,7 @@ body{
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 header{
@@ -68,6 +69,7 @@ ul li:hover ul.dropdown{
 
 footer{
     display: flex;
+    justify-content: space-evenly;
     background: rgba(104, 104, 104, 0.23);
     border-top-right-radius: 16px;
     border-top-left-radius: 16px;
@@ -84,14 +86,23 @@ footer img{
 }
 .fp{
     font-size: 200%;
-    margin-left:1%;
+    text-align: center;
 }
-#fs1d2{
-    margin-left: 2%;
+#fs2{
+    padding-top: 1.5%;
+    margin:0;
 }
-#fs1{
-    margin-left: 5%;
+#fs2a1{
+    margin-bottom: 1%;
 }
+.footertext{
+    font-weight:bold;
+}
+#line{
+    height:50px;
+    margin-top: 1%;
+}
+
 
 
 /* home page */
@@ -135,7 +146,35 @@ footer img{
 
 /* artiesten details */
 
+.square {
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+  }
 
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1{
+    margin-top: 50px;
+    font-size: medium;
+}
+h2{
+    margin-top: 50px;
+    font-size: medium;
+}
+
+footer{
+    display: grid;
+}
+
+h3{
+    font-size: smaller;
+}
 
 
 /* aanbiedingen overzicht */
