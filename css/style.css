@@ -130,7 +130,45 @@ footer img{
 
 
 /* event details page */
+.square {
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+  }
 
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1{
+    margin-top: 50px;
+    font-size: medium;
+}
+h2{
+    margin-top: 50px;
+    font-size: medium;
+}
+
+p{
+    margin-top: 50px;
+
+}
+.E{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer{
+    display: grid;
+}
+
+h3{
+    margin-top: 50px;
+    font-size: smaller;
+}
 
 
 
@@ -224,7 +262,41 @@ h3{
 
 
 
-/* contact page */
 
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid black;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
+  }
+  
+ 
+  input[type=submit] {
+    background-color: rgb(90, 89, 89);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color: black;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: rgba(104, 104, 104);
+    padding: 20px;   
+}
+#mainContact{
+    display: flex;
+    justify-content: center;
+}
 
 

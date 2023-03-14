@@ -39,7 +39,7 @@
                         <li><a href="aanbiedingenDetails.html">Aanbiedingen details</a></li>
                     </ul>
                 </li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
                 <li>
                     <a href="#">Overig</a>
                     <ul class="dropdown">
@@ -50,8 +50,31 @@
             </ul>
         </article>
     </header>
-    <main>
-
+    <main id="mainContact">
+        <div class="container">
+            <form action="Php/Contact_page.php">
+          
+              <label for="fname">Voornaam</label>
+              <input type="text" id="fname" name="firstname" placeholder="Jouw naam..">
+          
+              <label for="lname">Achternaam</label>
+              <input type="text" id="lname" name="lastname" placeholder="Jouw achternaam..">
+          
+              <label for="country">Probleem</label>
+              <select id="country" name="country">
+                <option value="probleem">Product</option>
+                <option value="foute bestelling">Foute bestelling</option>
+                <option value="Events">Events</option>
+                <option value="Anders">Anders</option>
+              </select>
+          
+              <label for="subject">Typ hieronder uw probleem uit.</label>
+              <textarea id="subject" name="subject" placeholder="Typ uw probleem.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
     </main>
     <footer>
         <section id="fs1">
