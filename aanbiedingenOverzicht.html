@@ -9,6 +9,7 @@
     <title>Cosmic energy</title>
     <link rel="website icon" type="png"
     href="images/favicon.png">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <header>
@@ -51,17 +52,16 @@
         </article>
     </header>
     <main>
-        <section id="section1-AO">
-            <div id="slideshow1">
-
+        <div class="slideshow-container">
+            <div class="slides">
+              <img src="image1.jpg">
+              <img src="image2.jpg">
+              <img src="image3.jpg">
             </div>
-            <div id="slideshow2">
-
-            </div>
-        </section>
-        <section id="section1-AO">
-
-        </section>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          
     </main>
     <footer>
         <section id="fs1">
