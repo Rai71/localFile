@@ -106,17 +106,16 @@ footer img{
 
 
 /* home page */
-#placeholderHomeImg1{
-    width: 100%;
-    height: 500px;
+#home-s1 img{
+    width: 34%;
 }
-.tekstenHomepage{
+#home-s1{
     display: flex;
-    justify-content: center;
 }
-#placeholderHomeImg2{
-    width: 55%;
-    height: 300px;
+#titel{
+    font-size: 400%;
+    text-align: center;
+    color: white;
 }
 
 /* product info page */
