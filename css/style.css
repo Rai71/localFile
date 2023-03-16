@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+@font-face{
+    font-family: font;
+    src: url(/css/GalaxyTail.ttf);
+}
+
 body{
     overflow-x: hidden;
     background-image: url("/images/BackgroundSite.png");
@@ -18,6 +23,7 @@ body{
 a{
     text-decoration: none;
     color: white;
+    font-family: font;
 }
 
 header{
@@ -33,12 +39,36 @@ header{
     align-items: center;
 }
 
+#navbarHome{
+    margin-left: 35vw;
+}
+
+#navbarEvent{
+    margin-left: 1vw;
+}
+
+#navbarArtiesten{
+    margin-left: 1vw;
+}
+
+#navbarAanbiedingen{
+    margin-left: 1vw;
+}
+
+#navbarContact{
+    margin-left: 1vw;
+}
+
+#navbarOverig{
+    margin-left: 1vw;
+}
+
 ul{
     list-style: none;
 }
 
 ul li{
-    display: inline-block
+    display: inline-block;
 }
 
 ul li a{
@@ -47,14 +77,21 @@ ul li a{
     text-align: center;
 }
 
+.dropdown li a{
+    padding: 10px;
+}
+
 ul li ul.dropdown li{
     display: block;
+    padding: 5px;
+    margin-left: -60px;
 }
 
 ul li ul.dropdown{
-    width: 100%;
+    padding: 5px;
     z-index: 999;
     display: none;
+    position: absolute;
 }
 
 ul li a:hover{
