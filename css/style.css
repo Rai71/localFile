@@ -150,7 +150,7 @@ footer img{
 }
 #home-s1{
     display: flex;
-    justify-content: center;
+    text-align: center;
 }
 #titel{
     font-size: 400%;
