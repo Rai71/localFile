@@ -145,15 +145,19 @@ footer img{
 
 /* home page */
 #home-s1 img{
-    width: 34%;
+    width: 25%;
+
 }
 #home-s1{
     display: flex;
+    justify-content: center;
 }
 #titel{
     font-size: 400%;
     text-align: center;
     color: white;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 
 /* product info page */
