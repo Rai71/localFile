@@ -9,7 +9,6 @@
     <title>Cosmic energy</title>
     <link rel="website icon" type="png"
     href="images/favicon.png">
-    <script src="css/main.js"></script>
 </head>
 <body>
     <header>
@@ -18,30 +17,30 @@
         </article>
         <article>
             <ul>
-                <li id="navbarHome"><a href="home.html">Home</a></li>
-                <li id="navbarEvent">
+                <li><a href="home.html">Home</a></li>
+                <li>
                     <a href="#">Event</a>
                     <ul class="dropdown">
                         <li><a href="eventOverzicht.html">Event overzicht</a></li>
                         <li><a href="eventDetails.html">Event details</a></li>
                     </ul>
                 </li>
-                <li id="navbarArtiesten">
+                <li>
                     <a href="#">Artiesten</a>
                     <ul class="dropdown">
                         <li><a href="artiestenOverzicht.html">Artiesten overzicht</a></li>
                         <li><a href="eventDetails.html">Artiesten details</a></li>
                     </ul>
                 </li>
-                <li id="navbarAanbiedingen">
+                <li>
                     <a href="#">Aanbiedingen</a>
                     <ul class="dropdown">
                         <li><a href="aanbiedingenOverzicht.html">Aanbiedingen overzicht</a></li>
                         <li><a href="aanbiedingenDetails.html">Aanbiedingen details</a></li>
                     </ul>
                 </li>
-                <li id="navbarContact"><a href="contact.php">Contact</a></li>
-                <li id="navbarOverig">
+                <li><a href="contact.php">Contact</a></li>
+                <li>
                     <a href="#">Overig</a>
                     <ul class="dropdown">
                         <li><a href="inlogAdmin.html">inloggen</a></li>
@@ -51,34 +50,31 @@
             </ul>
         </article>
     </header>
-    <main>
-        <p id="titel">HUIDIGE AANBIEDINGEN</p>
-        <section id="home-s1">
-            <img src="images/RegularSale.png" alt="Regular Sale">
-            <img src="images/BlackberrySale.png" alt="Blackberry Sale">
-            <img src="images/ZeroSale.png" alt="Zero Sale">
-        </section>
-        <section id="home-s2">
-            <article>
-                
-            </article>
-            <article>
-                
-            </article>
-        </section>
-        <section>
-            <img id="placeholderHomeImg2" src="./images/" alt="">
-        </section>
-        <section class="tekstenHomepage">   
-            <article>
-                <h1>article 1</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nesciunt similique sit quos itaque. Accusamus maiores vitae rem necessitatibus, nulla molestiae ullam voluptatum officiis expedita deserunt eius pariatur numquam architecto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni accusantium numquam voluptas quasi blanditiis distinctio alias, omnis, fuga veritatis voluptatum, deserunt praesentium eius. Recusandae voluptatem repellat asperiores mollitia eveniet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod impedit voluptate laboriosam placeat optio numquam illo, animi quae ipsam, ab eum dolorum accusamus quos nihil autem ratione vero voluptatem aliquam!</p>
-            </article>
-            <article>
-                <h1>Article 2</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nesciunt similique sit quos itaque. Accusamus maiores vitae rem necessitatibus, nulla molestiae ullam voluptatum officiis expedita deserunt eius pariatur numquam architecto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni accusantium numquam voluptas quasi blanditiis distinctio alias, omnis, fuga veritatis voluptatum, deserunt praesentium eius. Recusandae voluptatem repellat asperiores mollitia eveniet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod impedit voluptate laboriosam placeat optio numquam illo, animi quae ipsam, ab eum dolorum accusamus quos nihil autem ratione vero voluptatem aliquam!</p>
-            </article>
-        </section>
+    <main id="mainContact">
+        <div class="container">
+            <form action="Php/Contact_page.php">
+          
+              <label class="textLabel" for="fname">Voornaam</label>
+              <input type="text" id="fname" name="firstname" placeholder="Jouw naam..">
+          
+              <label class="textLabel" for="lname">Achternaam</label>
+              <input type="text" id="lname" name="lastname" placeholder="Jouw achternaam..">
+          
+              <label class="textLabel" for="country">Probleem</label>
+              <select id="country" name="country">
+                <option value="probleem">Product</option>
+                <option value="foute bestelling">Foute bestelling</option>
+                <option value="Events">Events</option>
+                <option value="Anders">Anders</option>
+              </select>
+          
+              <label class="textLabel" for="subject">Typ hieronder uw probleem uit.</label>
+              <textarea id="subject" name="subject" placeholder="Typ uw probleem.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
     </main>
     <footer>
         <section id="fs1">
@@ -92,7 +88,6 @@
                 <a href="#"><img src="images/youtube.png" alt=""></a>
             </div>
         </section>
-<<<<<<< Updated upstream
         <img id="line" src="images/vertical-line-icon-20.png" alt="">
         <section id="fs2">
             <div id="fs2d1">
@@ -103,13 +98,6 @@
                     <p class="footertext">Neem contact op met ons: 0683108455</p>
                 </article>
             </div>
-=======
-        <section id="fs2">
-            
-        </section>
-        <section id="fs3">
-            
->>>>>>> Stashed changes
         </section>
     </footer>
 </body>

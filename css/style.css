@@ -143,17 +143,16 @@ footer img{
 
 
 /* home page */
-#placeholderHomeImg1{
-    width: 100%;
-    height: 500px;
+#home-s1 img{
+    width: 34%;
 }
-.tekstenHomepage{
+#home-s1{
     display: flex;
-    justify-content: center;
 }
-#placeholderHomeImg2{
-    width: 55%;
-    height: 300px;
+#titel{
+    font-size: 400%;
+    text-align: center;
+    color: white;
 }
 
 /* product info page */
@@ -167,7 +166,45 @@ footer img{
 
 
 /* event details page */
+.square {
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+  }
 
+.R{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1{
+    margin-top: 50px;
+    font-size: medium;
+}
+h2{
+    margin-top: 50px;
+    font-size: medium;
+}
+
+p{
+    margin-top: 50px;
+
+}
+.E{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer{
+    display: grid;
+}
+
+h3{
+    margin-top: 50px;
+    font-size: smaller;
+}
 
 
 
@@ -191,7 +228,7 @@ footer img{
     background-color: blueviolet;
   }
 
-main{
+.R{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }

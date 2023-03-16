@@ -39,7 +39,7 @@
                         <li><a href="aanbiedingenDetails.html">Aanbiedingen details</a></li>
                     </ul>
                 </li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
                 <li>
                     <a href="#">Overig</a>
                     <ul class="dropdown">
@@ -51,7 +51,6 @@
         </article>
     </header>
     <main>
-
     </main>
     <footer>
         <section id="fs1">
