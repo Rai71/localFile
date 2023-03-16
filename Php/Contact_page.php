@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Authors" content="Rainier G, Tycho S">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>Cosmic energy</title>
     <link rel="website icon" type="png"
     href="images/favicon.png">
@@ -13,11 +13,11 @@
 <body>
     <header>
         <article>
-            <a href="home.html"><img class="logo-item" src="images/logoWslogan.png"></a>
+            <a href="home.html"><img class="logo-item" src="../images/logoWslogan.png"></a>
         </article>
         <article>
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="../home.html">Home</a></li>
                 <li>
                     <a href="#">Event</a>
                     <ul class="dropdown">
@@ -58,13 +58,13 @@
                 <p class="fp">Volg onze socials!</p>
             </div>
             <div id="fs1d2">
-                <a href="#"><img src="images/instagram.png" alt=""></a>
-                <a href="#"><img src="images/tiktok.png" alt=""></a>
-                <a href="#"><img src="images/twitter.png" alt=""></a>
-                <a href="#"><img src="images/youtube.png" alt=""></a>
+                <a href="#"><img src="../images/instagram.png" alt=""></a>
+                <a href="#"><img src="../images/tiktok.png" alt=""></a>
+                <a href="#"><img src="../images/twitter.png" alt=""></a>
+                <a href="#"><img src="../images/youtube.png" alt=""></a>
             </div>
         </section>
-        <img id="line" src="images/vertical-line-icon-20.png" alt="">
+        <img id="line" src="../images/vertical-line-icon-20.png" alt="">
         <section id="fs2">
             <div id="fs2d1">
                 <article id="fs2a1">

@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+@font-face{
+    font-family: font;
+    src: url(/css/A-Space\ Black\ Demo.otf);
+}
+
 body{
     overflow-x: hidden;
     background-image: url("/images/BackgroundSite.png");
@@ -18,6 +23,7 @@ body{
 a{
     text-decoration: none;
     color: white;
+    font-family: font;
 }
 
 header{
@@ -33,12 +39,36 @@ header{
     align-items: center;
 }
 
+#navbarHome{
+    margin-left: 37vw;
+}
+
+#navbarEvent{
+    margin-left: 2vw;
+}
+
+#navbarArtiesten{
+    margin-left: 2vw;
+}
+
+#navbarAanbiedingen{
+    margin-left: 2vw;
+}
+
+#navbarContact{
+    margin-left: 2vw;
+}
+
+#navbarOverig{
+    margin-left: 2vw;
+}
+
 ul{
     list-style: none;
 }
 
 ul li{
-    display: inline-block
+    display: inline-block;
 }
 
 ul li a{
@@ -47,18 +77,26 @@ ul li a{
     text-align: center;
 }
 
+.dropdown li a{
+    padding: 10px;
+}
+
 ul li ul.dropdown li{
     display: block;
+    padding: 5px;
+    margin-left: -60px;
+    background-color: rgba(104, 104, 104, 0.23);
 }
 
 ul li ul.dropdown{
-    width: 100%;
+    padding: 5px;
     z-index: 999;
     display: none;
+    position: absolute;
 }
 
 ul li a:hover{
-    background: #112c66;
+    background: #7f5d00;
 }
 
 ul li:hover ul.dropdown{
@@ -106,17 +144,16 @@ footer img{
 
 
 /* home page */
-#placeholderHomeImg1{
-    width: 100%;
-    height: 500px;
+#home-s1 img{
+    width: 34%;
 }
-.tekstenHomepage{
+#home-s1{
     display: flex;
-    justify-content: center;
 }
-#placeholderHomeImg2{
-    width: 55%;
-    height: 300px;
+#titel{
+    font-size: 400%;
+    text-align: center;
+    color: white;
 }
 
 /* product info page */
