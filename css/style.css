@@ -6,7 +6,7 @@
 
 @font-face{
     font-family: font;
-    src: url(/css/GalaxyTail.ttf);
+    src: url(/css/A-Space\ Black\ Demo.otf);
 }
 
 body{
@@ -40,27 +40,27 @@ header{
 }
 
 #navbarHome{
-    margin-left: 35vw;
+    margin-left: 37vw;
 }
 
 #navbarEvent{
-    margin-left: 1vw;
+    margin-left: 2vw;
 }
 
 #navbarArtiesten{
-    margin-left: 1vw;
+    margin-left: 2vw;
 }
 
 #navbarAanbiedingen{
-    margin-left: 1vw;
+    margin-left: 2vw;
 }
 
 #navbarContact{
-    margin-left: 1vw;
+    margin-left: 2vw;
 }
 
 #navbarOverig{
-    margin-left: 1vw;
+    margin-left: 2vw;
 }
 
 ul{
@@ -85,6 +85,7 @@ ul li ul.dropdown li{
     display: block;
     padding: 5px;
     margin-left: -60px;
+    background-color: rgba(104, 104, 104, 0.23);
 }
 
 ul li ul.dropdown{
@@ -95,7 +96,7 @@ ul li ul.dropdown{
 }
 
 ul li a:hover{
-    background: #112c66;
+    background: #7f5d00;
 }
 
 ul li:hover ul.dropdown{
