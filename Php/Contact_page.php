@@ -64,7 +64,6 @@
                 <a href="#"><img src="../images/youtube.png" alt=""></a>
             </div>
         </section>
-        <img id="line" src="../images/vertical-line-icon-20.png" alt="">
         <section id="fs2">
             <div id="fs2d1">
                 <article id="fs2a1">
