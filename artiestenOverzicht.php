@@ -15,31 +15,8 @@
     require_once('Php\header.php');
     
     ?>
-    <main id="mainContact">
-        <div class="container">
-            <form action="Php/Contact_page.php">
-          
-              <label class="textLabel" for="fname">Voornaam</label>
-              <input type="text" id="fname" name="firstname" placeholder="Jouw naam..">
-          
-              <label class="textLabel" for="lname">Achternaam</label>
-              <input type="text" id="lname" name="lastname" placeholder="Jouw achternaam..">
-          
-              <label class="textLabel" for="country">Probleem</label>
-              <select id="country" name="country">
-                <option value="probleem">Product</option>
-                <option value="foute bestelling">Foute bestelling</option>
-                <option value="Events">Events</option>
-                <option value="Anders">Anders</option>
-              </select>
-          
-              <label class="textLabel" for="subject">Typ hieronder uw probleem uit.</label>
-              <textarea id="subject" name="subject" placeholder="Typ uw probleem.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
-          
-            </form>
-          </div>
+    <main>
+
     </main>
     <footer>
         <section id="fs1">
