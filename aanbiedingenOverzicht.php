@@ -17,16 +17,28 @@
     
     ?>
     <main>
-        <div class="slideshow-container">
-            <div class="slides">
-              <img src="image1.jpg">
-              <img src="image2.jpg">
-              <img src="image3.jpg">
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-          </div>
-          
+    <?php
+try{
+$conn = new mysqli("localhost", "root", "", "energy");
+}catch(Exception $e){
+    echo $e->getMessage();
+}
+
+$sql = "SELECT * FROM aanbiedingen";
+$result = $conn -> query($sql);
+while($row = $result->fetch_object()){
+    ?>
+    <article>
+        <a href="aanbiedingenDetails.php?id=<?php echo $row->aanbiedingen_id; ?>"><?php echo $row->afbeelding; ?></a>
+
+    </article>
+    <?php
+}
+
+$result->close();
+$conn->close();
+
+?>
     </main>
     <footer>
         <section id="fs1">
