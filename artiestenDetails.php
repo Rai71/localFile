@@ -11,45 +11,10 @@
     href="images/favicon.png">
 </head>
 <body>
-    <header>
-        <article>
-            <a href="home.html"><img class="logo-item" src="images/logoWslogan.png"></a>
-        </article>
-        <article>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li>
-                    <a href="#">Event</a>
-                    <ul class="dropdown">
-                        <li><a href="eventOverzicht.html">Event overzicht</a></li>
-                        <li><a href="eventDetails.html">Event details</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Artiesten</a>
-                    <ul class="dropdown">
-                        <li><a href="artiestenOverzicht.html">Artiesten overzicht</a></li>
-                        <li><a href="eventDetails.html">Artiesten details</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Aanbiedingen</a>
-                    <ul class="dropdown">
-                        <li><a href="aanbiedingenOverzicht.html">Aanbiedingen overzicht</a></li>
-                        <li><a href="aanbiedingenDetails.html">Aanbiedingen details</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
-                <li>
-                    <a href="#">Overig</a>
-                    <ul class="dropdown">
-                        <li><a href="inlogAdmin.html">inloggen</a></li>
-                        <li><a href="productInfo.html">Product info</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </article>
-    </header>
+<?php
+    require_once('Php\header.php');
+    
+    ?>
         <main id="A">
             <article><div class="square"></div>
             <h1>

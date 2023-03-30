@@ -12,45 +12,10 @@
     <script src="main.js" defer></script>
 </head>
 <body>
-    <header>
-        <article>
-            <a href="home.html"><img class="logo-item" src="images/logoWslogan.png"></a>
-        </article>
-        <article>
-            <ul>
-                <li id="navbarHome"><a href="home.html">Home</a></li>
-                <li id="navbarEvent">
-                    <a href="#">Event</a>
-                    <ul class="dropdown">
-                        <li><a href="eventOverzicht.html">Event overzicht</a></li>
-                        <li><a href="eventDetails.html">Event details</a></li>
-                    </ul>
-                </li>
-                <li id="navbarArtiesten">
-                    <a href="#">Artiesten</a>
-                    <ul class="dropdown">
-                        <li><a href="artiestenOverzicht.html">Artiesten overzicht</a></li>
-                        <li><a href="eventDetails.html">Artiesten details</a></li>
-                    </ul>
-                </li>
-                <li id="navbarAanbiedingen">
-                    <a href="#">Aanbiedingen</a>
-                    <ul class="dropdown">
-                        <li><a href="aanbiedingenOverzicht.html">Aanbiedingen overzicht</a></li>
-                        <li><a href="aanbiedingenDetails.html">Aanbiedingen details</a></li>
-                    </ul>
-                </li>
-                <li id="navbarContact"><a href="contact.php">Contact</a></li>
-                <li id="navbarOverig">
-                    <a href="#">Overig</a>
-                    <ul class="dropdown">
-                        <li><a href="inlogAdmin.html">inloggen</a></li>
-                        <li><a href="productInfo.html">Product info</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </article>
-    </header>
+<?php
+    require_once('Php\header.php');
+    
+    ?>
     <main>
         <div class="slideshow-container">
             <div class="slides">

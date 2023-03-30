@@ -1,4 +1,4 @@
-/* algemeen */
+algemeen
 *{
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@ header{
 }
 
 #navbarHome{
-    margin-left: 37vw;
+    margin-left: 30vw;
 }
 
 #navbarEvent{
@@ -106,6 +106,10 @@ ul li:hover ul.dropdown{
 /* f staat voor footer, s voor section en d voor div, het nummer erachter geeft indicatie naar hoeveelste het is van die tag */
 
 footer{
+    position: fixed;
+    bottom: 0px;
+    height: 25vh;
+    width: 100vw;
     background: rgba(104, 104, 104, 0.23);
     border-top-right-radius: 16px;
     border-top-left-radius: 16px;
@@ -114,8 +118,8 @@ footer{
     -webkit-backdrop-filter: blur(9.8px);
     border-bottom: 2px solid rgba(255, 255, 255, 0.24);
     box-shadow: 0 0 10px 0;
-    bottom: 0;
     display: flex;
+    justify-content: center;
 }
 footer img{
     width: 50px;
@@ -130,6 +134,7 @@ footer p{
 #fs2{
     padding-top: 1.5%;
     margin:0;
+    margin-bottom: 5vh;
 }
 #fs2a1{
     margin-bottom: 1%;
@@ -224,6 +229,17 @@ footer p{
     opacity: 1;
 }
 
+#tekstHomepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    margin-left: 10vw;
+    font-size: 1.5em;
+    padding-bottom: 30vh;
+}
+
 /* product info page */
 
 
@@ -278,7 +294,36 @@ h3{
 
 
 /* inlog admin page */
+form{
+    padding: 2rem;
+    background-color: rgba(54, 54, 54, 0.276);
+    border-radius: 36px;
+    border: 1px solid rgba(255, 255, 255, 0.244);
+    width: 60vw;
+    margin-left: 20vw;
+    text-align: center;
+}
 
+.formInlogAdmin{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    height: 10vh;
+    justify-content: space-between;
+    size: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+#emailFormIA{
+    height: 3vh;
+    width: 20vw;
+}
+
+#wachtwoordFormIA{
+    height: 3vh;
+    width: 20vw;
+}
 
 
 
