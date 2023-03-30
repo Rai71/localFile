@@ -37,6 +37,8 @@ header{
     border-bottom: 2px solid rgba(255, 255, 255, 0.24);
     box-shadow: 0 0 10px 0;
     align-items: center;
+    /* width: 110vw;
+    margin-right: 10vw; */
 }
 
 #navbarHome{
@@ -108,7 +110,7 @@ ul li:hover ul.dropdown{
 footer{
     position: fixed;
     bottom: 0px;
-    height: 25vh;
+    height: 30vh;
     width: 100vw;
     background: rgba(104, 104, 104, 0.23);
     border-top-right-radius: 16px;
@@ -121,32 +123,54 @@ footer{
     display: flex;
     justify-content: center;
 }
+
 footer img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 footer p{
     color: white;
 }
+
 .fp{
-    font-size: 200%;
+    font-size: 100%;
+    margin-bottom: 2vh;
 }
-#fs2{
-    padding-top: 1.5%;
-    margin:0;
-    margin-bottom: 5vh;
+
+#fp2{
+    position: relative;
+    bottom: 2vh;
 }
-#fs2a1{
-    margin-bottom: 1%;
+
+#fp3{
+    position: relative;
+    bottom: 7vh;
 }
-.footertext{
-    font-weight:bold;
-    color: white;
+
+.socialIconsFooter{
+    width: 20vw;
 }
-#line{
-    height:50px;
-    margin-top: 1%;
+
+/* #instagramIcon1{
+    height: 4vh;
+    width: 4vw;
 }
+
+#tiktokIcon1{
+    height: 4vh;
+    width: 4vw;
+}
+
+#twitterIcon1{
+    height: 4vh;
+    width: 4vw;
+}
+
+#youtubeIcon1{
+    height: 4vh;
+    width: 4vw;
+} */
+
 
 
 
@@ -238,6 +262,7 @@ footer p{
     margin-left: 10vw;
     font-size: 1.5em;
     padding-bottom: 30vh;
+    color: #fff;
 }
 
 /* product info page */
@@ -302,6 +327,16 @@ form{
     width: 60vw;
     margin-left: 20vw;
     text-align: center;
+}
+
+
+.loginerror {
+    color: white;
+    border: 5px solid #7f5d00;
+    border-radius: 72px;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: center;
 }
 
 .formInlogAdmin{
