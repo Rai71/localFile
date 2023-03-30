@@ -16,7 +16,26 @@
     
     ?>
     <main>
+    <?php
+try{
+    $conn = new mysqli("localhost", "root", "", "energy");
+}catch(Exception $e){
+    echo $e->getMessage();
+}
 
+if(isset($_GET["aanbiedingen_id"])){
+    $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id = ".$_GET["aanbiedingen_id"];
+    $result = $conn -> query($sql);
+    $user = $result->fetch_row();
+    ?>
+        <article id="Details">
+    <?php echo $user->titel . " - " . $user->begindatum . " - " . $user->einddatum . " - " . $user->omschrijving;?>
+        </article>
+    <?php
+    $result->close();
+}
+$conn -> close();
+?>
     </main>
     <footer>
         <section>

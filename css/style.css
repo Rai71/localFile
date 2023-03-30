@@ -407,7 +407,10 @@ h3{
 
 /* aanbiedingen details */
 
-
+#Details{
+    width: 20%;
+    height: 20%;
+}
 
 
 /* contact page */
