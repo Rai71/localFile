@@ -35,10 +35,10 @@
                         <li><a href="productInfo.php">Product info</a></li>
                     </ul>
                 </li>
-                <li?>
+                <li>
                     <?php session_start(); 
                     if(isset($_SESSION["username"])){
-                    ?><a  href="/ala-pirode-3/admincheck.php"> <?php echo $_SESSION["username"];?></a><?php
+                    ?><a  href="Php\adminCheck.php"> <?php echo $_SESSION["username"];?></a><?php
                         }
                      ?> 
                  </li>

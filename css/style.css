@@ -332,32 +332,22 @@ form{
 
 .loginerror {
     color: white;
-    border: 5px solid #7f5d00;
+    border: 5px solid #000000;
     border-radius: 72px;
-    background-color: darkkhaki;
+    background-color: rgba(255, 255, 255, 0.244);
     display: flex;
     justify-content: center;
+    width: 20vw;
+    align-items: center;
 }
 
 .formInlogAdmin{
-    display: flex;
-    flex-direction: column;
-    padding: 1vw;
-    height: 10vh;
-    justify-content: space-between;
-    size: 2em;
-    align-items: center;
-    justify-content: center;
+    color: #fff;
 }
 
-#emailFormIA{
-    height: 3vh;
-    width: 20vw;
-}
-
-#wachtwoordFormIA{
-    height: 3vh;
-    width: 20vw;
+#h2TekstIA{
+    margin-left: 40vw;
+    color: #fff;
 }
 
 

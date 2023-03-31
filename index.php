@@ -41,7 +41,7 @@
         <section id="tekstHomepage">
             <p>
                 Onze unieke formule is ontworpen om je een explosieve energieboost te geven, zonder de crash die vaak gepaard gaat met andere energiedranken. Met een combinatie van cafeïne, taurine, B-vitaminen en andere natuurlijke ingrediënten, is Cosmic Energy Drink de perfecte keuze voor iedereen die een snelle, betrouwbare en langdurige energieboost nodig heeft.
-Of je nu een atleet bent die een extra randje nodig heeft voor een training, een student die laat werkt aan een project of gewoon iemand die een extra energieboost nodig heeft om door de dag te komen, Cosmic Energy Drink zal je niet teleurstellen. En met de heerlijke smaak van onze dranken, zul je zeker terug blijven komen voor meer!
+                Of je nu een atleet bent die een extra randje nodig heeft voor een training, een student die laat werkt aan een project of gewoon iemand die een extra energieboost nodig heeft om door de dag te komen, Cosmic Energy Drink zal je niet teleurstellen. En met de heerlijke smaak van onze dranken, zul je zeker terug blijven komen voor meer!
             </p>
             <p>Maar het gaat niet alleen om de smaak en de energieboost - we zijn ook toegewijd aan het creëren van een betere toekomst voor onze planeet. Cosmic Energy Drink wordt geproduceerd met duurzame en verantwoorde productiemethoden en onze verpakkingen zijn volledig recyclebaar.</p>
         </section>

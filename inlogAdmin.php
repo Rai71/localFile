@@ -15,37 +15,26 @@
     require_once('Php\header.php');
     
     ?>
-    <main>
-        <!-- <form class="formInlogAdmin">
-            <span>
-                <input id="emailFormIA" type="email" name="e-mailadres" placeholder="e-mailadres">
-            </span>
-            <span>
-                <input id="wachtwoordFormIA" type="password" name="wachtwoord" placeholder="wachtwoord">
-            </span>
-            <span>
-                <input type="submit" name="login" placeholder="login">
-            </span>
-        </form> -->
-        <article>
-    <section>
-        <h2>Login</h2>
-        <form action="" method="POST">
-            <section>
-                <label for="username">Username:</label>
-                <input type="text" name="username-inlog" id="username" required>
-            </section>
+<main>
+    <article>
+        <section class="formInlogAdmin">
+            <h2 id="h2TekstIA">Login</h2>
+            <form action="" method="POST">
+                <section>
+                    <label for="username">Username:</label>
+                    <input type="text" name="username-inlog" id="username" required>
+                </section>
 
-            <section>
-                <label for="password">Password:</label>
-                <input type="password" name="password-inlogen" id="password" required>
-            </section>
+                <section>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password-inlogen" id="password" required>
+                </section>
 
-            <section>
-                <button type="submit" name="login">Login</button>
-            </section>
-        </form>
-    </section>
+                <section>
+                    <button type="submit" name="login">Login</button>
+                </section>
+            </form>
+        </section>
 </article>
     </main>
     <footer>
