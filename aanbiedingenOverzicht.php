@@ -28,7 +28,7 @@ $sql = "SELECT * FROM aanbiedingen";
 $result = $conn -> query($sql);
 while($row = $result->fetch_object()){
     ?>
-    <article>
+    <article id="overzicht">
         <a href="aanbiedingenDetails.php?id=<?php echo $row->aanbiedingen_id; ?>"><?php echo $row->afbeelding; ?></a>
 
     </article>

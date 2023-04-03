@@ -24,7 +24,6 @@
                     <a href="#">Aanbiedingen</a>
                     <ul class="dropdown">
                         <li><a href="aanbiedingenOverzicht.php">Aanbiedingen overzicht</a></li>
-                        <li><a href="aanbiedingenDetails.php">Aanbiedingen details</a></li>
                     </ul>
                 </li>
                 <li id="navbarContact"><a href="contact.php">Contact</a></li>

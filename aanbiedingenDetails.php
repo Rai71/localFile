@@ -24,13 +24,26 @@ try{
 }
 
     $id = $_GET['id'];
-    $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id = $id";
+
+    $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id = $id"; 
     $result = $conn -> query($sql);
     $sale = $result->fetch_object();
-    ?>
-        <p id="Details">
-    <?php echo $sale->titel . " - " . $sale->begindatum . " - " . $sale->einddatum . " - " . $sale->omschrijving;?>
+    ?>  <article id="Details">
+        <p>
+    <?php echo $sale->titel;?>
         </p>
+        <p>
+    <?php echo $sale->begindatum;?>
+        </p>
+        <p>
+    <?php echo $sale->einddatum;?>
+        </p>
+        <p>
+    <?php echo $sale->omschrijving;?>
+        </p>
+        <a href="aanbiedingenOverzicht.php">Terug naar overzicht</a>
+        </article>
+        
     <?php
     $result->close();
 
