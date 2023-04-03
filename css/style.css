@@ -221,6 +221,7 @@ footer p{
 
 .slider::-webkit-scrollbar{
     width: 0%;
+    size: 200%;
 }
 
 .slider img{
