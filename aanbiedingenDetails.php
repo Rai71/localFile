@@ -38,26 +38,16 @@ $conn -> close();
 ?>
     </main>
     <footer>
-        <section id="fs1">
-            <div id="fs1d1">
-                <p class="fp">Volg onze socials!</p>
-            </div>
-            <div id="fs1d2">
-                <a href="#"><img src="images/instagram.png" alt=""></a>
-                <a href="#"><img src="images/tiktok.png" alt=""></a>
-                <a href="#"><img src="images/twitter.png" alt=""></a>
-                <a href="#"><img src="images/youtube.png" alt=""></a>
-            </div>
-        </section>
-        <section id="fs2">
-            <div id="fs2d1">
-                <article id="fs2a1">
-                    <p class="footertext">Mail ons: cosmicenergy@gmail.com</p>
-                </article>
-                <article id="fs2a2">
-                    <p class="footertext">Neem contact op met ons: 0683108455</p>
-                </article>
-            </div>
+        <section>
+            <p class="fp">volg onze socials!</p>
+            <article class="socialIconsFooter">
+                <a href="contact.php"><img id="instagramIcon1" src="images\instagram.png" alt="instagram icon"></a>
+                <a href="contact.php"><img id="tiktokIcon1" src="images\tiktok.png" alt="tiktok icon"></a>
+                <a href="contact.php"><img id="twitterIcon1" src="images\twitter.png" alt="twitter icon"></a>
+                <a href="contact.php"><img id="youtubeIcon1" src="images\youtube.png" alt="youtube icon"></a>
+            </article>
+            <p id="fp2">telefoon: 06 83108455</p>
+            <p id="fp3">Mail ons: cosmicenergy@gmail.com</p>
         </section>
     </footer>
 </body>
