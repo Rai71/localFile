@@ -320,9 +320,6 @@ p{
     grid-template-columns: 1fr 1fr;
 }
 
-footer{
-    display: grid;
-}
 
 h3{
     margin-top: 50px;
@@ -394,9 +391,9 @@ h2{
     font-size: medium;
 }
 
-footer{
+/* footer{
     display: grid;
-}
+} */
 
 h3{
     font-size: smaller;

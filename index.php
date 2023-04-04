@@ -46,19 +46,56 @@
             <p>Maar het gaat niet alleen om de smaak en de energieboost - we zijn ook toegewijd aan het creëren van een betere toekomst voor onze planeet. Cosmic Energy Drink wordt geproduceerd met duurzame en verantwoorde productiemethoden en onze verpakkingen zijn volledig recyclebaar.</p>
         </section>
     </main>
-    <footer>
-        <section>
-            <p class="fp">volg onze socials!</p>
-            <article class="socialIconsFooter">
-                <a href="contact.php"><img id="instagramIcon1" src="images\instagram.png" alt="instagram icon"></a>
-                <a href="contact.php"><img id="tiktokIcon1" src="images\tiktok.png" alt="tiktok icon"></a>
-                <a href="contact.php"><img id="twitterIcon1" src="images\twitter.png" alt="twitter icon"></a>
-                <a href="contact.php"><img id="youtubeIcon1" src="images\youtube.png" alt="youtube icon"></a>
+
+
+
+ <footer>
+   
+    <section>
+        <article>
+            <h1 id="ft"> Volg onze socials!</h1>
+        </article>
+
+            <article class="socials">
+                <a href="#"><img src="images/instagram.png" alt="insta"></a>
+                <a href="#"><img src="images/tiktok.png" alt="tiktok"></a>
+                <a href="#"><img src="images/twitter.png" alt="twitter"></a>
+                <a href="#"><img src="images/youtube.png" alt="youtube"></a>
             </article>
-            <p id="fp2">telefoon: 06 83108455</p>
-            <p id="fp3">Mail ons: cosmicenergy@gmail.com</p>
-        </section>
-    </footer>
+
+            <article>
+                <p class="footertext">Mail ons: cosmicenergy@gmail.com</p>
+                <p class="footertext">Neem contact op met ons: 0683108455</p>
+                <p>[Copyrightshit]</p>
+            </article>
+            <style>
+                footer{
+        width: 100%;
+        height: 500px;
+        background-color: rgba(137, 129, 129, 0.402);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+                }
+
+#socials, img{
+    width: 40px;
+    height: 40px;
+}
+#ft {
+    font-size: 35px;
+}
+
+footer, h1, p {
+    font-size: 27px;
+    color: white;
+}
+
+
+            </style>
+    </section>
+</footer>
     <script src="main.js" defer></script>
 </body>
+
 </html>
