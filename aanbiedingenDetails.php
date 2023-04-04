@@ -23,8 +23,8 @@ try{
     echo $e->getMessage();
 }
 
-if(isset($_GET["aanbiedingen_id"])){
-    $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id = ".$_GET["aanbiedingen_id"];
+if(isset($_GET["id"])){
+    $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id = ".$_GET["id"];
     $result = $conn -> query($sql);
     $user = $result->fetch_row();
     ?>
