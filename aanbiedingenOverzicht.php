@@ -30,7 +30,6 @@ while($row = $result->fetch_object()){
     ?>
     <article id="overzicht">
         <a href="aanbiedingenDetails.php?id=<?php echo $row->aanbiedingen_id; ?>"><?php echo $row->afbeelding; ?></a>
-
     </article>
     <?php
 }
