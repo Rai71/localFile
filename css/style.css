@@ -108,13 +108,17 @@ ul li:hover ul.dropdown{
 /* f staat voor footer, s voor section en d voor div, het nummer erachter geeft indicatie naar hoeveelste het is van die tag */
 
 footer{
-<<<<<<< Updated upstream
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+
+    
+
     /* position: fixed; */
-=======
-    position: absolute;
->>>>>>> Stashed changes
-    bottom: 0px;
-    height: 30vh;
+    /* bottom: 0px; */
+    /* height: 30vh;
     width: 100vw;
     background: rgba(104, 104, 104, 0.23);
     border-top-right-radius: 16px;
@@ -125,7 +129,7 @@ footer{
     border-bottom: 2px solid rgba(255, 255, 255, 0.24);
     box-shadow: 0 0 10px 0;
     display: flex;
-    justify-content: center;
+    justify-content: center; */
 }
 
 footer img{
