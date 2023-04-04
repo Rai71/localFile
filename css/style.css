@@ -108,7 +108,7 @@ ul li:hover ul.dropdown{
 /* f staat voor footer, s voor section en d voor div, het nummer erachter geeft indicatie naar hoeveelste het is van die tag */
 
 footer{
-    position: fixed;
+    /* position: fixed; */
     bottom: 0px;
     height: 30vh;
     width: 100vw;
@@ -221,6 +221,7 @@ footer p{
 
 .slider::-webkit-scrollbar{
     width: 0%;
+    size: 200%;
 }
 
 .slider img{
@@ -392,14 +393,48 @@ h3{
 
 /* aanbiedingen overzicht */
 
-
+#overzicht{
+    display: flex;
+    background: rgba(104, 104, 104, 0.23);
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.24);
+    box-shadow: 0 0 10px 0;
+    align-items: center;
+}
 
 
 /* aanbiedingen details */
 
-#Details{
-    width: 20%;
-    height: 20%;
+#details p {
+    font-size: 200%;
+    color: white;
+}
+#details{
+    display: flex;
+    background: rgba(104, 104, 104, 0.23);
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.24);
+    box-shadow: 0 0 10px 0;
+    align-items: center;
+    height: 50vh;
+    width: 80vw;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right:10%;
+
 }
 
 

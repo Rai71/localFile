@@ -15,7 +15,7 @@
     require_once('Php\header.php');
     
     ?>
-    <main>
+    <main id="details">
     <?php
 try{
     $conn = new mysqli("localhost", "root", "", "energy");
@@ -23,17 +23,30 @@ try{
     echo $e->getMessage();
 }
 
-if(isset($_GET["id"])){
-    $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id = ".$_GET["id"];
+    $id = $_GET['id'];
+
+    $sql = "SELECT * FROM aanbiedingen WHERE aanbiedingen_id = $id"; 
     $result = $conn -> query($sql);
-    $user = $result->fetch_row();
-    ?>
-        <article id="Details">
-    <?php echo $user->titel . " - " . $user->begindatum . " - " . $user->einddatum . " - " . $user->omschrijving;?>
+    $sale = $result->fetch_object();
+    ?>  <article id="Details">
+        <p>
+    <?php echo $sale->titel;?>
+        </p>
+        <p>
+    <?php echo $sale->begindatum;?>
+        </p>
+        <p>
+    <?php echo $sale->einddatum;?>
+        </p>
+        <p>
+    <?php echo $sale->omschrijving;?>
+        </p>
+        <a href="aanbiedingenOverzicht.php">Terug naar overzicht</a>
         </article>
+        
     <?php
     $result->close();
-}
+
 $conn -> close();
 ?>
     </main>
