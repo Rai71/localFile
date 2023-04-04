@@ -108,7 +108,11 @@ ul li:hover ul.dropdown{
 /* f staat voor footer, s voor section en d voor div, het nummer erachter geeft indicatie naar hoeveelste het is van die tag */
 
 footer{
+<<<<<<< Updated upstream
     /* position: fixed; */
+=======
+    position: absolute;
+>>>>>>> Stashed changes
     bottom: 0px;
     height: 30vh;
     width: 100vw;
