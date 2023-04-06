@@ -128,6 +128,8 @@
 	});
 </script>
 </main>
+</body>
+</html>
         <footer>
         <section>
             <p class="fp">volg onze socials!</p>
