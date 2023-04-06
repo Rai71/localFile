@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <header>
         <article>
-            <a href="index.php"><img class="logo-item" src="images/logoWslogan.png"></a>
+            <a href="index.php"><img class="logoItem" src="images/logoWslogan.png"></a>
         </article>
         <article>
             <ul>

@@ -19,17 +19,7 @@
 
     </main>
     <footer>
-        <section>
-            <p class="fp">volg onze socials!</p>
-            <article class="socialIconsFooter">
-                <a href="contact.php"><img id="instagramIcon1" src="images\instagram.png" alt="instagram icon"></a>
-                <a href="contact.php"><img id="tiktokIcon1" src="images\tiktok.png" alt="tiktok icon"></a>
-                <a href="contact.php"><img id="twitterIcon1" src="images\twitter.png" alt="twitter icon"></a>
-                <a href="contact.php"><img id="youtubeIcon1" src="images\youtube.png" alt="youtube icon"></a>
-            </article>
-            <p id="fp2">telefoon: 06 83108455</p>
-            <p id="fp3">Mail ons: cosmicenergy@gmail.com</p>
-        </section>
+        
     </footer>
 </body>
 </html>
