@@ -61,8 +61,8 @@ $dbname = "energy";
     <main>
         <?php
 $host = 'localhost';
-$user = 'username';
-$pass = 'password';
+$user = '';
+$pass = '';
 $dbname = 'energy';
 
 $conn = mysqli_connect($host, $user, $pass, $dbname);
