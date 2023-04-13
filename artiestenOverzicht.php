@@ -58,7 +58,7 @@ $dbname = "energy";
             </ul>
         </article>
     </header>
-    <main>
+    <main id="TR">
         <?php
 $host = 'localhost';
 $user = '';
@@ -79,7 +79,7 @@ if (mysqli_num_rows($result) > 0) {
     echo "<tr><th>ID</th><th>Naam</th><th>Achternaam</th><th>Voornaam</th><th>Tussenvoegsel</th><th>Statement</th><th>Telefoon</th><th>Actief</th></tr>";
 
     while ($row = mysqli_fetch_assoc($result)) {
-        echo "<tr>";
+        echo <p style="color: white;"> "<tr>";
         echo "<td>" . $row['artiest_id'] . "</td>";
         echo "<td>" . $row['naam'] . "</td>";
         echo "<td>" . $row['achternaam'] . "</td>";
@@ -88,7 +88,7 @@ if (mysqli_num_rows($result) > 0) {
         echo "<td>" . $row['statement'] . "</td>";
         echo "<td>" . $row['telefoon'] . "</td>";
         echo "<td>" . $row['actief'] . "</td>";
-        echo "</tr>";
+        echo "</tr>"</p>;
     }
 
     echo "</table>";
