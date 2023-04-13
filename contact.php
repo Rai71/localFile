@@ -17,7 +17,7 @@
     ?>
     <main id="mainContact">
         <div class="container">
-            <form action="Php/Contact_page.php">
+            <form action="Contact_page.php">
           
               <label class="textLabel" for="fname">Voornaam</label>
               <input type="text" id="fname" name="firstname" placeholder="Jouw naam..">
