@@ -316,7 +316,9 @@ form{
 
 /* artiesten overzicht */
 
-
+TR{
+text-decoration-color: white;
+}
 
 
 /* artiesten details */

@@ -35,7 +35,7 @@
 	</style>
 </head>
 <body>
-    <main>
+    <main id="TR">
 	<form action="" method="post">
 		<label for="artiest">Choose an artist:</label>
 		<select name="artiest" id="artiest">
